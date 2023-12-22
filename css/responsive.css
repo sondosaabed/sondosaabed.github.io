@@ -1,0 +1,38 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    #welcome img {
+        max-width: 80%; /* Adjust image size */
+        bottom: 20px;
+    }
+
+    #education ul ul {
+        margin-left: 2em; /* Adjust margin for better readability */
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add specific styles for tablets */
+    #welcome img {
+        max-width: 60%; /* Adjust image size */
+        bottom: 40px;
+    }
+
+    #education ul ul {
+        margin-left: 4em; /* Adjust margin for better readability */
+    }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Add specific styles for larger screens */
+    #welcome img {
+        max-width: 100%; /* Adjust image size */
+        bottom: 60px;
+    }
+
+    #education ul ul {
+        margin-left: 8em; /* Adjust margin for better readability */
+    }
+}
