@@ -1,0 +1,248 @@
+/* this CSS rules gives the page layout its look */ 
+
+/**This is the id for my navigation bar as i have two navigation bars
+One for the website Student trainging, 
+the other was demanded for the main and assignments**/
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    align-items: center;
+    top: 0;
+}
+
+
+.navbar {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#web {
+    gap: 20px;
+}
+
+#assignment a,
+#web a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+#assignment{
+    margin-left: 5px;
+    padding: 3PX;
+}
+
+section{
+    padding: 150px;
+}
+
+section h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+aside{
+    width: 30%;
+    padding: 25px;
+    float: right;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 150px;
+    align-items: center;
+}
+
+#welcome span{
+    display: inline-block;
+}
+
+#welcome h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#welcome a{
+    padding: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+#welcome a:hover{
+    color:  blueviolet;
+}
+
+#name{
+    margin: 0 0 0 20px;
+}
+
+#about span{
+    display: inline-block;
+}
+
+#servicies h2{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+#table {
+    display: flex;
+    justify-content: space-around; 
+    padding:  30px 0 30px 0;
+}
+
+#hobies figure{
+    transition: 0.7s ease;
+    margin: 15px 15px;
+}
+#hobies figure:hover{
+    transform: scale(1.1);
+}
+
+#profile:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+#welcome button{
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 14px;
+    transition: 0.7s ease;
+}
+
+#welcome button:hover{
+    transform: scale(1.1);
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#voluntary .project-item {
+    padding: 25px;
+    margin: 10px;
+    width: 30%;
+    background-color: white;
+}
+
+#projects h3{
+    margin: 10px;
+}
+
+#projects .project-item {
+    padding: 25px;
+    margin: 10px;
+    width: 30%;
+}
+
+.project-item {
+    padding: 20px;
+    margin: 3px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+.project-item img{
+    transition: transform 0.3s;
+}
+.project-item img:hover{
+    transform: scale(1.05);
+}
+
+#voluntary .project-item{
+    transition: transform 0.3s;
+}
+#voluntary .project-item:hover{
+    background-color: #3498db;
+}
+.vol-title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#items a {
+    display: block;
+    margin-top: 10px;
+}    
+
+#items a:hover {
+    text-decoration: underline;
+}
+
+#education span {
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+
+#imgid {
+    display: flex;
+}
+
+#education ul ul{
+    margin-left: 8em;
+}
+
+#education ul li {
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+#education ul ul li {
+    padding: 5px;
+}
+
+#education li:hover {
+    transform: scale(1.05);
+}
+
+#competitions .competition-container {
+    display: flex;
+    justify-content: center;
+}
+
+#competitions img:hover {
+    transform: scale(1.1);
+}

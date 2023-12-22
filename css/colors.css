@@ -1,0 +1,170 @@
+p.error-message {
+    color: #ff0000;
+}
+
+#welcome h2{
+    color: gainsboro;
+}
+
+section h2, #about span{
+    color: blueviolet;
+}
+
+#web a, #web a:visited, #welcome a, #name, #servicies figure figcaption{
+    color: white;
+}
+
+#about p, #voluntary h2, #projects h2, #courses h2, #contact h2, #courses h2, #about h2,
+ #point0 h1, #point0 h2, #point0 p, #hobies figure figcaption{
+    color: black;
+}
+
+#about p span, #point0 span, a, #welcome span{
+    color: #007BFF;
+}
+
+#voluntary,  #courses, #contact, #point0, #about, #hobies, #hobies #table, #welcome button,aside{
+    background-color: white;
+}
+
+header, footer, #servicies #table, #competitions, #servicies, #welcome, #education{
+    background-color: black;
+    color: white;
+}
+
+#projects,  aside, #welcome button{
+    background-color: blueviolet;
+}
+
+#assignment a:visited,#assignment a,#web a:hover{
+    color:blueviolet;
+ }
+#assignment a:hover{
+    color:white;
+}
+
+section{
+    border: black 20px solid;
+}
+#welcome, #servicies, #competitions{
+    border: white 100px solid;
+}
+#about{
+    border: blueviolet 20px solid;
+}
+#hobies, #education, #projects{
+    border: #007BFF 50px solid;
+}
+
+#hobies #table{
+    border: 7px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#servicies #table{
+    border: 7px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: gainsboro;
+}
+
+#assignment a:hover, aside, #web a:hover, #welcome button{
+    border-radius: 13px;
+}
+
+#assignment a, #assignment a:visited, #assignment a:hover, aside, #web a:hover, #welcome button{
+    border: black 7px solid;
+}
+
+#items a {
+    color: #3498db;
+}
+
+#courses span, #projects span{
+    color: blueviolet;
+}
+
+#projects .project-item {
+    border: 6px black solid;
+}
+
+#projects h3{
+    color: white;
+}
+#projects p{
+ color: black;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: gainsboro;
+    border-radius: 8px;
+}
+
+#education h3 {
+    color: white;
+}
+
+#education span {
+    color: #3498db;
+}
+
+#education p {
+    color: white;
+}
+
+
+#contact .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .contact-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+#contact .contact-card {
+    border: 7px solid blueviolet;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#contact .contact-card:hover {
+    transform: scale(1.05);
+}
+
+#contact .icon {
+    font-size: 5em;
+}
+
+#voluntary h3{
+    color: blueviolet;
+}
+
+#contact h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#contact address,
+#contact p,
+#contact a {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}

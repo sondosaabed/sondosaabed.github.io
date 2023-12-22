@@ -1,0 +1,75 @@
+#welcome img{
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 15em;
+    width: 15em;
+    order: 2;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer a img{
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+nav a img{
+    height: 20px;
+}
+
+#hobies figure img{
+    width: auto;
+    height: 320px;
+}
+
+#s404 img{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-item img {
+    width: auto;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: white solid 1px;
+}
+
+#education img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#table img{
+    height: 85px;
+    width: 85px;
+    transition: 0.7s ease;
+    margin: 1em;
+}
+
+#servicies #table img:hover{
+    transform: scale(1.5);
+}
+
+#competitions img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#voluntary img{
+    border-color: white;
+}
